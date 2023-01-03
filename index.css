@@ -125,7 +125,10 @@ h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
-    color: var(--white);
+    color:rgb(255, 255, 255);
+}
+.asa{
+    color: rgb(255, 255, 255);
 }
 
 .heading-primary {
@@ -133,6 +136,7 @@ h3 {
     font-size: var(--font-size-huge);
     font-weight: 400;
 }
+
 
 @media(max-width: 900px) {
     .heading-primary {
@@ -219,8 +223,9 @@ body:not(.user-is-tabbing) a:focus {
     padding: 1rem 4.2rem;
     text-decoration: none;
     color: inherit;
-    border: 1px solid  var(--pink);
+    border: 1px solid  var(red);
     font-weight: 400;
+    color: #f0f0f4;
 }
 
 .btn:focus {
@@ -247,7 +252,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .btn--pink {
-    background: var(--pink);
+    background:rgb(128, 5, 5);
     transition: all 0.2s;
 }
 
@@ -339,6 +344,7 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     justify-content: flex-end;
     padding: var(--gutter-normal) 0;
+    color: rgb(255, 244, 244);
 }
 
 .nav__items {
@@ -390,7 +396,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .nav__link:hover {
-    color: var(--pink);
+    color: rgb(13, 10, 174);
 }
 
 .nav__link:hover::after {
@@ -405,7 +411,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+        url('./images/226619a3bd7ddd41ce861f2c96976b79\ \(1\).jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -610,4 +616,7 @@ body:not(.user-is-tabbing) a:focus {
     .footer {
         padding: var(--gutter-medium) 0;
     } 
+}
+.header{
+    background-color: rgb(244, 240, 255);
 }
